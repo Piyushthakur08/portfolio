@@ -177,7 +177,7 @@ const Hero: React.FC = () => {
           href="https://github.com/Piyushthakur08"
           target="_blank"
           rel="noopener noreferrer"
-          style={styles.socialButton}s
+          style={styles.socialButton}
         >
           <img
             src="/icons/social/github.png"
