@@ -10,46 +10,36 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "LeChat: Real-Time Chat Application",
+    title: "Chit-Chat — Real-Time Messaging Platform",
     description:
-      "Full-stack real-time chat app with Socket.IO, JWT authentication, role-based access, and Cloudinary uploads.",
-    image: "icons/projects/lechat.png",
-    url: "https://lechat-public.vercel.app",
-    github: "https://github.com/kulj33t/LeChat",
-  },
-
-  {
-    title: "RateIt",
-    description:
-      "A full-stack MERN application for tracking and ranking TV series. Features a unique S-Tier to F-Tier rating system, real-time community consensus charts, and a personalized library dashboard. Built with React, Tailwind CSS, Framer Motion, and a robust Node/Express backend.",
-    image: "icons/projects/rateit.png",
-    url: "https://rateitorhateit.vercel.app", 
-    github: "https://github.com/kulj33t/rateitorhateit",
+      "A real-time chat application built with the MERN stack and Socket.IO. Features include JWT authentication, private and group chats, online user presence, and secure message handling.",
+    image: "icons/projects/chitchat.png",
+    url: "https://chit-chat-public.vercel.app",
+    github: "https://github.com/Piyushthakur08",
   },
   {
-    title: "AI ChatBot Assistant",
+    title: "Academic Management System",
     description:
-      "AI chatbot powered by Google Generative AI API, featuring contextual query handling and async streaming.",
+      "A full-stack MERN application designed to manage academic workflows including students, faculty, courses, and results. Includes role-based access control and a responsive dashboard.",
+    image: "icons/projects/ams.png",
+    url: "https://academic-management-public.vercel.app",
+    github: "https://github.com/Piyushthakur08",
+  },
+  {
+    title: "AI Chat Bot",
+    description:
+      "An AI-powered chatbot using modern generative AI APIs with contextual conversation handling and asynchronous responses. Designed for fast, interactive user experiences.",
     image: "icons/projects/chatbot.png",
     url: "https://chatbot-public.vercel.app",
-    github: "https://github.com/kulj33t/Chatbot",
-  },
-  
-  {
-    title: "AttendX",
-    description:
-      "Geolocation-based attendance app built with React Native, Expo, and Figma for UI/Frontend design.",
-    image: "icons/projects/attendx.png",
-    url: "https://github.com/kulj33t/AttendX",
-    github: "https://github.com/kulj33t/AttendX",
-  },
+    github: "https://github.com/Piyushthakur08",
+  },  
   {
     title: "Portfolio",
     description:
-      "Kuljeet Singh's personal portfolio showcasing projects, UI/UX designs, and technical skills built with React and modern frontend practices.",
+      "Piyush Thakur's personal portfolio showcasing projects, UI/UX designs, and technical skills built with React and modern frontend practices.",
     image: "icons/projects/portfolio.png",
-    url: "https://kuljeet.vercel.app",
-    github: "https://github.com/kulj33t/Portfolio",
+    url: "https://piyushthakur-portfolio.vercel.app/",
+    github: "https://github.com/Piyushthakur08/portfolio",
   },
   
 
